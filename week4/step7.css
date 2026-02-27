@@ -1,0 +1,35 @@
+body {
+    background-color: #f4f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;        /* Rounded corners */
+    box-shadow: 0 4px 15px gray; /* Shadow effect */
+    text-align: center;
+}
+
+.card h2 {
+    color: #4a90e2;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #357abd;
+}
