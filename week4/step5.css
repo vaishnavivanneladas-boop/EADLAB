@@ -1,0 +1,66 @@
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fb;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Main Name Heading */
+h1 {
+    text-align: center;
+    color: #2f4f9f;
+    margin-bottom: 10px;
+}
+
+/* Section Headings */
+h3 {
+    color: #333;
+    border-bottom: 2px solid #2f4f9f;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 15px;
+    color: #444;
+}
+
+/* Contact Information Styling */
+p br {
+    margin-bottom: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid #999;
+}
+
+th {
+    background-color: #2f4f9f;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+/* Skills List */
+ul {
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}

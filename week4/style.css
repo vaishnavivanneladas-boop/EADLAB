@@ -1,0 +1,62 @@
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;   /* Background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the Form */
+.form-container {
+    width: 400px;
+    margin: 80px auto;   /* Centers the form horizontally */
+    padding: 25px;
+    background-color: #ffffff;
+    border: 2px solid #4a90e2;   /* Border */
+    border-radius: 10px;        /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Input Fields and Dropdowns */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;  /* Box model */
+}
+
+/* Submit Button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 18px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+input[type="submit"]:hover {
+    background-color: #2f6fc1;
+}

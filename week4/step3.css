@@ -1,0 +1,47 @@
+/* Center content */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5faff;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+/* Style heading */
+h1 {
+    color: darkblue;
+}
+
+/* Style paragraph */
+p {
+    font-size: 18px;
+}
+
+/* Ordered list */
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Image styling */
+img {
+    margin-top: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* Link styling */
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect */
+a:hover {
+    color: red;
+}

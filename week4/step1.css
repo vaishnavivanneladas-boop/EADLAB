@@ -1,0 +1,57 @@
+/* Page Background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Form Container Styling */
+form, body {
+    margin-top: 50px;
+}
+
+/* Heading */
+h2 {
+    color: #333;
+}
+
+/* Text Inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #4a90e2;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Textarea Height */
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    margin: 10px 5px;
+}
+
+/* Submit Button */
+button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Hover Effect */
+button:hover {
+    background-color: #2f6fc1;
+}
