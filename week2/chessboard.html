@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    width: 60px;
+    height: 60px;
+}
+
+.black{
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>Chess Board</h2>
+
+<table border="1" id="board"></table>
+
+<script>
+
+let table = document.getElementById("board");
+
+for(let i=0; i<8; i++){
+
+    let row = "<tr>";
+
+    for(let j=0; j<8; j++){
+
+        if((i+j)%2==0){
+            row += '<td class="white"></td>';
+        }
+
+        else{
+            row += '<td class="black"></td>';
+        }
+    }
+
+    row += "</tr>";
+
+    table.innerHTML += row;
+}
+
+</script>
+
+</body>
+</html>
